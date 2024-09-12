@@ -6,7 +6,7 @@
     <DDLNAME>ZI_RAP_CERTIFICATE_PRODUCT</DDLNAME>
     <DDLANGUAGE>P</DDLANGUAGE>
     <DDTEXT>Composite - Certificate With Product</DDTEXT>
-    <SOURCE_TYPE>V</SOURCE_TYPE>
+    <SOURCE_TYPE>W</SOURCE_TYPE>
    </DDLS>
   </asx:values>
  </asx:abap>
