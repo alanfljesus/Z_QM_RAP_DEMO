@@ -1,0 +1,29 @@
+projection;
+strict ( 1 );
+use draft;
+
+define behavior for ZC_RAP_CERTIFICATE_PRODUCT //alias <alias_name>
+{
+  use create;
+  use update;
+  use delete;
+
+  use association _Stats { create; with draft; }
+
+  use action Edit;
+  use action Activate;
+  use action Discard;
+  use action Prepare;
+  use action Resume;
+
+  use action newVersion;
+  use action releaseVersion;
+  use action archiveVersion;
+}
+
+define behavior for ZC_RAP_CERTIF_ST_PRODUCT //alias <alias_name>
+{
+  use delete;
+
+  use association _Certif;
+}
